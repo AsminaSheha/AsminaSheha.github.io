@@ -1,0 +1,233 @@
+body {
+    font-family: 'Lora', serif;
+    background-color: #EAE7DC;
+    color: #8E8D8A;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #D8C3A5;
+    padding: 20px 40px;
+}
+
+.logo {
+    font-family: 'Playfair Display', serif;
+    font-weight: 500;
+    font-style: italic;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    margin: 0 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #8E8D8A;
+    font-family: 'Playfair Display', serif;
+    font-weight: 500;
+    font-size: 1.25rem;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #E85A4F;
+}
+
+main {
+    padding: 20px;
+    font-family: 'Lora', serif;
+}
+
+.hero {
+    text-align: center;
+    padding: 50px 20px;
+    background-image: url('IMAGE.png');
+    background-size: cover;
+    background-position: center;
+    color: #FFFFFF;
+}
+
+.hero h1 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 500;
+}
+
+.hero p {
+    font-family: 'Lora', serif;
+}
+
+.hero .cta-buttons {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 20px; 
+}
+
+.hero button {
+    margin: 10px;
+    padding: 10px 20px;
+    border: none;
+    background-color: #E85A4F;
+    color: #FFFFFF;
+    font-family: 'Playfair Display', serif;
+    cursor: pointer;
+    transition: transform 0.3s, background-color 0.3s;
+}
+
+.hero button:hover {
+    transform: scale(1.1); 
+    background-color: #D8C3A5;
+    color: #8E8D8A;
+}
+
+.about-us {
+    padding: 50px 20px;
+    background-color: #EAE7DC;
+    text-align: center;
+}
+
+.about-us h2 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 500;
+}
+
+.about-us p {
+    font-family: 'Lora', serif;
+    color: #8E8D8A;
+    margin-bottom: 40px;
+}
+
+.features {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.feature {
+    width: 30%;
+    margin: 10px 0;
+    text-align: center;
+}
+
+.feature h3 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 500;
+    margin: 10px 0;
+}
+
+.feature p {
+    font-family: 'Lora', serif;
+}
+
+.write-review {
+    padding: 50px 20px;
+    background-color: #D8C3A5;
+    text-align: center;
+}
+
+.write-review h2 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 500;
+}
+
+.write-review p {
+    font-family: 'Lora', serif;
+    color: #8E8D8A;
+    margin-bottom: 20px;
+}
+
+.review-form {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.review-form label {
+    display: block;
+    font-family: 'Lora', serif;
+    margin-bottom: 5px;
+}
+
+.review-form input,
+.review-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #8E8D8A;
+    border-radius: 4px;
+    font-family: 'Lora', serif;
+}
+
+.review-form button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background-color: #E85A4F;
+    color: #FFFFFF;
+    font-family: 'Playfair Display', serif;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.review-form button:hover {
+    background-color: #D8C3A5;
+    color: #8E8D8A;
+}
+
+footer {
+    position: relative;
+    text-align: center;
+    background-color: #D8C3A5;
+    padding: 10px 0;
+}
+
+.social-icons {
+    margin: 20px 0;
+}
+
+.social-icon {
+    display: inline-block;
+    margin: 0 10px;
+    font-size: 24px;
+    color: #8E8D8A;
+    transition: color 0.3s;
+}
+
+.social-icon:hover {
+    color: #E85A4F;
+}
+
+footer p {
+    margin: 0;
+}
+
+.back-to-top {
+    background-color: #E85A4F;
+    color: #FFFFFF;
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    display: none;
+    transition: background-color 0.3s;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+.back-to-top:hover {
+    background-color: #E98074;
+}

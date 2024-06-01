@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MASHAS - Clothes to be Stitched</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500&family=Lora:wght@400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha384-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx" crossorigin="anonymous">
+</head>
+<body>
+    <header>
+        <div class="logo" onclick="window.location.href='index.html'">MASHAS</div>
+        <!--Navigation-->
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="women.html">Women</a></li>
+                <li><a href="kids.html">Kids</a></li>
+                <li><a href="accessories.html">Accessories</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="hero">
+            <h1>Welcome to MASHAS</h1>
+            <p>Your one-stop reference for beautifully stitched clothes. Discover a wide range of custom designs and high-quality fabrics tailored to fit your style.</p>
+            <div class="cta-buttons">
+                <button onclick="window.location.href='women.html'">Explore Women</button>
+                <button onclick="window.location.href='kids.html'">Explore Kids</button>
+                <button onclick="window.location.href='accessories.html'">Explore Accessories</button>
+            </div>
+        </section>
+
+        <!-- About Us Section -->
+        <section class="about-us">
+            <div class="about-content">
+                <h2>Welcome to MASHAS - Your Destination for Custom Clothing Excellence</h2>
+                <p>At MASHAS, we specialize in crafting unique and personalized garments tailored to your individual style and preferences. Our store is dedicated to delivering exceptional custom clothing services, ensuring that every piece we create is a perfect reflection of you.</p>
+                <div class="features">
+                    <div class="feature">
+                        <h3>Personalized Experience</h3>
+                        <p>We work closely with each customer to understand their specific needs and style preferences. From initial consultation to final fitting, your satisfaction is our top priority.</p>
+                    </div>
+                    <div class="feature">
+                        <h3>Quality Craftsmanship</h3>
+                        <p>Every garment is made with precision and care, using the finest materials and techniques to ensure superior quality and comfort.</p>
+                    </div>
+                    <div class="feature">
+                        <h3>Unique and Custom Designs</h3>
+                        <p>Whether you're looking for a custom-made suit, dress, or any other garment, our bespoke designs ensure you stand out with clothing that is uniquely yours.</p>
+                    </div>
+                </div>
+                <p>Invest in your style with MASHAS. Experience the difference today.</p>
+                <p><strong>Welcome to MASHAS – Where Your Style Meets Our Craftsmanship.</strong></p>
+            </div>
+        </section>
+
+        <!-- Write a Review Section -->
+        <section class="write-review">
+            <h2>Write a Review</h2>
+            <p>We value your feedback and would love to hear about your experience with MASHAS. Please share your thoughts below:</p>
+            <form class="review-form">
+                <label for="review-name">Name:</label>
+                <input type="text" id="review-name" name="review-name" required>
+
+                <label for="review-message">Review:</label>
+                <textarea id="review-message" name="review-message" rows="5" required></textarea>
+
+                <button type="submit">Submit Review</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <!-- Social Media Icons -->
+        <div class="social-icons">
+            <a href="https://www.facebook.com/mashas" class="social-icon" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://www.twitter.com/mashas" class="social-icon" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.instagram.com/mashas" class="social-icon" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+        </div>
+
+        <!-- Back to Top Button -->
+        <div class="back-to-top" onclick="window.scrollTo({top: 0, behavior: 'smooth'});">&#8679;</div>
+
+        <!-- Copyright Notice -->
+        <p>&copy; 2024 MASHAS. All rights reserved.</p>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>

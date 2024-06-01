@@ -1,0 +1,142 @@
+/* General Styles */
+body {
+    font-family: 'Lora', serif;
+    background-color: #EAE7DC;
+    color: #8E8D8A;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #D8C3A5;
+    padding: 20px 40px;
+}
+
+.logo {
+    font-family: 'Playfair Display', serif;
+    font-weight: 500;
+    font-style: italic;
+    font-size: 2rem;
+    cursor: pointer; 
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    margin: 0 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #8E8D8A;
+    font-family: 'Playfair Display', serif;
+    font-weight: 500;
+    font-size: 1.25rem; 
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #E85A4F;
+}
+
+footer {
+    position: relative;
+    text-align: center;
+    background-color: #D8C3A5;
+    padding: 20px 0;
+}
+
+.back-to-top {
+    background-color: #E85A4F;
+    color: #FFFFFF;
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+.back-to-top:hover {
+    background-color: #E98074;
+}
+
+
+.accessories-section {
+    padding: 50px 20px;
+    background-color: #EAE7DC;
+    text-align: center;
+}
+
+.accessories-section h2 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+.accessories-section p {
+    max-width: 800px;
+    margin: 0 auto 40px;
+    font-family: 'Lora', serif;
+    color: #8E8D8A;
+    line-height: 1.6;
+}
+
+.category {
+    margin-bottom: 50px;
+}
+
+.category h3 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 500;
+    margin-bottom: 20px;
+    color: #E85A4F;
+}
+
+.items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.item {
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 200px;
+}
+
+.item img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.item h4 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.coming-soon {
+    margin-top: 50px;
+}
+
+.coming-soon h3 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 500;
+    color: #E85A4F;
+}
